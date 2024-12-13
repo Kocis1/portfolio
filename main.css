@@ -1,0 +1,241 @@
+
+
+/* 6 задание */
+header,footer
+{
+    background-color: royalblue;
+    color:  white;
+    font-size: 36px;
+    border-color: black;
+}
+.container-content
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu
+{
+    width: 600px;
+}
+.menu-list
+{
+    display: inline;
+    justify-content: space-between;
+}
+.menu a
+{
+    text-decoration: none;
+    color: azure;
+
+}
+
+.main-info img
+{
+    border-radius: 100%;
+    width: 720px;
+}
+
+
+.main-info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    background-color: darkblue;
+
+    
+}
+.main-text
+{
+    font-size: 24px;
+    color: white;
+    margin: 8px;
+    justify-content: start;
+}
+.container button
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(58, 58, 58);
+    width: 500px;
+    font-size: 36px;
+    border-radius: 16px;
+}
+.container
+{
+    gap: 20px;
+}
+.section
+{
+    width: 50%;
+}
+/* 9 задание */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html,
+body {
+    max-width: 1920px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+}
+.head
+{
+    text-align: center;
+}
+.background {
+    width: 1920px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.background img {
+    width: 100%;
+}
+
+.card {
+    height: 300px;
+    width: 100%;
+    top: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://avatars.mds.yandex.net/i?id=8f6fd81f490aae13f9ee4831bd5b8771_l-5224388-images-thumbs&n=13);
+
+}
+
+.card-content {
+    width: 25%;
+    background-color: rgb(3, 8, 134);
+}
+.card-content-img {
+
+    width: 100%;
+    height: 75%;
+    top: 100px;
+    display: inline-block;
+    border: 4px solid black;
+    background-color: beige;
+}
+
+.card-content-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content-text {
+    text-align: center;
+    height: 15vh;
+}
+
+.card-content-text button {
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 75%;
+    height: 50%;
+    font-size: 30px;
+}
+.container
+{
+    align-items: center;
+
+}
+.container-content-nine
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-content-row
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.container-content-img
+{
+    object-fit: cover;
+    width: 45%;
+}
+.container-content-img img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.container-content-text
+{
+    width: 45%;
+    flex-direction: column;
+    display: block;
+
+
+}
+.container-content-text *
+{
+    align-items: center;
+    font-size: 60px;
+
+}
+.contact
+{
+    background-color: aqua;
+    text-align: center;
+    height: 600px;
+}
+.contact-content
+{
+    background-color: beige;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+
+}
+.contact-content-card
+{
+    display: inline-block;
+    background-color: purple;
+    width: 10%;
+    height: 160px;
+    align-items: center;
+    border-radius: 24px;
+    display: grid;
+
+}
+.contact-content-card-header
+{
+    height: 40%;
+    align-items: center;
+}
+.contact-content-card-header h2
+{
+    align-items: center;
+}
+
+
+.contact-content-card button
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 90%;
+
+
+}
